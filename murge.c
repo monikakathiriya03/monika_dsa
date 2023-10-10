@@ -18,7 +18,7 @@ int main()
     printf("Array 1 Value is : \n");
     for ( i = 0; i < n; i++)
     {
-        printf("%d ,",a[i]);
+        printf("%d ",a[i]);
     }
 
     // Array 2
@@ -34,7 +34,7 @@ int main()
     printf("Array 2 Value is : \n");
     for ( i = 0; i < m; i++)
     {
-        printf("%d ,",b[i]);
+        printf("%d ",b[i]);
     }
     
     // Merge Array
@@ -53,7 +53,7 @@ int main()
     printf("\n\nMerge Array Is : \n");
     for ( i = 0; i < (n + m); i++)
     {
-        printf("%d ,",c[i]);
+        printf("%d ",c[i]);
     }
     
     return 0;

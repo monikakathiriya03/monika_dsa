@@ -44,7 +44,7 @@ int display()
         printf("queue is empty...");
     }
     
-    for (int i = f; i < r; i++)
+    for (int i = f; i <= r; i++)
     {
         printf("%d ,",a[i]);
     }   
